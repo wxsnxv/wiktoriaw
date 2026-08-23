@@ -1,0 +1,26 @@
+# robots.txt — wiktoriaw.com
+
+# All standard crawlers
+User-agent: *
+Allow: /
+
+# AI / generative search crawlers (explicitly allowed for GEO visibility)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://wiktoriaw.com/sitemap.xml
